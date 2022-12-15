@@ -1,35 +1,14 @@
 {
   "users": [
     {
-      "email": "123@gmail.com",
-      "password": "$2a$10$0wqBxV.Cil0WtU6CxdxY0ulwZHL7Nyy64Ij1yqGffkL9amIz7v7F2",
+      "email": "admin123@gmail.com",
+      "password": "$2a$10$MsqADBBFfa6oPy82rF.6UOJ.nnnGGA3JXPKzTlPbKJFPzJGTkybuS",
+      "name": "Admin User",
+      "role": "admin",
       "id": 1
     }
   ],
-  "posts": [
-    {
-      "userId": 1,
-      "id": 1,
-      "title": "first post",
-      "desc": "Some desc"
-    },
-    {
-      "userId": 1,
-      "title": "first post",
-      "desc": "Some desc",
-      "id": 2
-    },
-    {
-      "userId": 1,
-      "title": "first post",
-      "desc": "Some desc",
-      "id": 3
-    },
-    {
-      "userId": 1,
-      "title": "first post",
-      "desc": "Some desc",
-      "id": 4
-    }
+  "appointments": [
+    
   ]
 }
