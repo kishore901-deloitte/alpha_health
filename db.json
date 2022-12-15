@@ -6,9 +6,74 @@
       "name": "Admin User",
       "role": "admin",
       "id": 1
+    },
+    {
+      "email": "kishore@gmail.com",
+      "password": "$2a$10$Bstj3orE4IINtQv9DopHrOOIFTQZe77lhVoDqnmj/1EfP/9NuO3aq",
+      "name": "Kishore Singh",
+      "role": "patient",
+      "id": 2
+    },
+    {
+      "email": "aniket@gmail.com",
+      "password": "$2a$10$Lva4a9Z7WZexHSysL7gTeuJ1oD4NqSNn0XWgKYqOVt217Zxq//8m6",
+      "name": "Aniket",
+      "role": "doctor",
+      "id": 3
+    },
+    {
+      "email": "bhavya@gmail.com",
+      "password": "$2a$10$WzSJ38kiDDfYGIStV8MyzOdcw/14vlPqx.kXI6X3gnFJ3uryl1pQC",
+      "name": "Bhavya",
+      "role": "doctor",
+      "id": 4
+    },
+    {
+      "email": "lava@gmail.com",
+      "password": "$2a$10$kPtNY/vp4LbgnG0R8HLUO.6GGxfmTJbFsXjXxm6pCKF0XqzCMdu6u",
+      "name": "Lava",
+      "type": "Dermatologist",
+      "role": "doctor",
+      "id": 5
+    },
+    {
+      "email": "bhuvana@gmail.com",
+      "password": "$2a$10$U1HWt4BrzD8wFU7UPZZ2Tu878q02u5dKo5gOnOQh1SQ3liW5056rG",
+      "name": "Bhuvana",
+      "specialization": "dfsdfsfsaf",
+      "id": 6
+    },
+    {
+      "email": "bharathi@gmail.com",
+      "password": "$2a$10$RNzaP2r5opRfc1WPgjqAuueIsdlUyUI49LhC6nTAE3NnWKq5cbpay",
+      "name": "Bharathi",
+      "specialization": "Type",
+      "id": 7
+    },
+    {
+      "email": "Kiran@gmail.com",
+      "password": "$2a$10$6Y0s99a8Lu6PY98xD7qQdeD9vLw27Y8QYkJ5FlwYtwDG4hF0VvM8a",
+      "name": "Kiran",
+      "specialization": "Dental",
+      "role": "doctor",
+      "id": 8
+    },
+    {
+      "email": "kuber@gmail.com",
+      "password": "$2a$10$FmCd1f2Rpcuj2ucVE8efZOoUyBFK/80z3yOkN8Vn7JJH3SH7O6sQS",
+      "name": "Kuber",
+      "specialization": "asdsadas",
+      "role": "doctor",
+      "id": 9
+    },
+    {
+      "email": "Idon't@gmail.com",
+      "password": "$2a$10$hBOlws6xgv3Zbbq20IvAkuLAjKIoY1I.RsYeBsvCGRGr7Vn9g3qFq",
+      "name": "Idont'know",
+      "specialization": "sdasdad",
+      "role": "doctor",
+      "id": 10
     }
   ],
-  "appointments": [
-    
-  ]
+  "appointments": []
 }

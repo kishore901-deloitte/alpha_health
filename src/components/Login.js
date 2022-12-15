@@ -21,14 +21,13 @@ const Login = () => {
         if(response.status === 200){
           setIsLoggedIn(true)
           setUser(response.data.user)
-          
           // Clear
           setEmail('')
           setPassword('')
           toast.success('Login Success');
 
           // redirect after login
-          navigate('/admin')
+          navigate('/dashboard')
         }else{
           setIsLoggedIn(false)
           setUser({})
@@ -58,7 +57,7 @@ const Login = () => {
                     <input value={password} onChange={(e) => setPassword(e.target.value)} className="w-full h-10 p-6 outline-none border border-slate-300 rounded-md text-xl" placeholder="Password" type="password" name="pass" required />
                 </div>
                 <div className="flex justify-center">
-                    <button className="outline-none bg-red-300 rounded-lg px-10 py-2 text-black hover:bg-red-200" type="submit">Submit</button>
+                    <button className="outline-none bg-red-400 text-white rounded-lg px-10 py-2 text-black hover:bg-red-500" type="submit">Submit</button>
                 </div>
               </form>
             </div>
